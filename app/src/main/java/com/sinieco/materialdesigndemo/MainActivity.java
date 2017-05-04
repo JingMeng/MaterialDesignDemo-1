@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
         tool.setSubtitleTextColor(getResources().getColor(R.color.colorAccent));
         tool.collapseActionView();
         setSupportActionBar(tool);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         tool.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
