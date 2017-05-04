@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add"
+        android:title="添加"
+        app:showAsAction="always">
+    </item>
+    <item android:id="@+id/daytime"
+        android:title="日间模式"
+        android:icon="@mipmap/gongzuo"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/nighttime"
+        android:title="夜间模式"
+        android:icon="@mipmap/gongzuo"
+        app:showAsAction="never">
+    </item>
+
+
+</menu>

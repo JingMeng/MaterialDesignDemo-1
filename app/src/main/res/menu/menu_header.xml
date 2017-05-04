@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/news"
+            android:title="新闻"
+            android:icon="@mipmap/gongzuo"/>
+        <item android:id="@+id/photo"
+            android:title="美图"
+            android:icon="@mipmap/gongzuo"/>
+        <item android:id="@+id/video"
+            android:title="视频"
+            android:icon="@mipmap/gongzuo"/>
+        <item android:id="@+id/game"
+            android:title="游戏"
+            android:icon="@mipmap/gongzuo"/>
+    </group>
+    <item android:title="应用">
+        <menu >
+            <item android:id="@+id/share"
+                android:title="分享"
+                android:icon="@mipmap/gongzuo">
+            </item>
+            <item android:id="@+id/setting"
+                android:title="设置"
+                android:icon="@mipmap/gongzuo"/>
+        </menu>
+    </item>
+</menu>

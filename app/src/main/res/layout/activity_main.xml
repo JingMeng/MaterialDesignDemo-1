@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sinieco.materialdesigndemo.MainActivity">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:background="?attr/colorPrimary"
+                android:layout_height="?attr/actionBarSize">
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+        <View
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/left"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#0099ff"
+            app:layout_behavior="com.sinieco.materialdesigndemo.behavior.HomeBehavior"/>
+
+        <Button
+
+            android:id="@+id/right"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="250dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ffff00"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navi"
+        android:layout_gravity="start"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/menu_header">
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
